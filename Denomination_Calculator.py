@@ -91,3 +91,4 @@ def newwindow():
 B1 = Button(t1, text="CLICK HERE TO CONTINUE", command=newwindow)
 B1.pack()
 t1.mainloop()
+print()

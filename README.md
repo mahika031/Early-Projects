@@ -17,3 +17,24 @@ Possible Future Improvements
 - Add persistent storage (e.g., save/load the library to a file or database)
 - Add input validation for edge cases
 - Build a GUI version using Tkinter
+
+
+2. Denomination Counter 💵 
+A simple GUI-based Denomination Calculator built in Python using Tkinter. Given an amount, it breaks it down into the minimum number of ₹2000, ₹500, ₹100, and ₹10 notes, plus ₹1 coins needed to make up that amount. 
+
+Features
+- Welcome screen with a greeting message
+- A second window (opened via button click) where you enter an amount
+- Instantly calculates and displays the required count of:
+      ₹2000 notes
+      ₹500 notes
+      ₹100 notes
+      ₹10 notes
+      ₹1 coins
+
+Known Issues / Possible Future Improvements
+- Clicking "CALCULATE" more than once adds the new result to the old one instead of replacing it. The result boxes should be cleared before showing a new result.
+- If the user enters text or leaves the amount box empty, the program crashes. Input checking should be added.
+- PIL (Image, ImageTk) is imported but not used. It can be removed if no image is needed.
+- There is an extra mainloop() in the code that is not needed. Only one mainloop() is required.
+- A better message can be shown if the user enters 0 or a negative amount.

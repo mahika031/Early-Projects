@@ -5,7 +5,7 @@ A collection of my beginner Python projects created while learning programming i
 
 
 
-1. The Daydream Library — Library Management System📚 
+1. The Daydream Library — Library Management System📚 <br>
 A simple command-line Library Management System built in Python using Object-Oriented Programming. I wrote this project during Class 11th as one of my first hands-on attempts at applying OOP concepts in Python. I'm uploading it now as a record of where I started. 
 
 ✨Features
@@ -25,7 +25,7 @@ A simple command-line Library Management System built in Python using Object-Ori
 
 
 
-2. Denomination Counter 💵 
+2. Denomination Counter 💵 <br>
 A simple GUI-based Denomination Calculator built in Python using Tkinter. Given an amount, it breaks it down into the minimum number of ₹2000, ₹500, ₹100, and ₹10 notes, plus ₹1 coins needed to make up that amount. 
 
 ✨Features
@@ -49,7 +49,7 @@ A simple GUI-based Denomination Calculator built in Python using Tkinter. Given 
 
 
 
-3. Rock Paper Scissor Game✊✋✌️ 
+3. Rock Paper Scissor Game✊✋✌️ <br>
 A simple GUI-based Rock Paper Scissors game built in Python using Tkinter. Type your move, click the button, and play a single round against the computer. 
 
 ✨Features

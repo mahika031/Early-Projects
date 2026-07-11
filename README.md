@@ -21,9 +21,10 @@ A simple command-line Library Management System built in Python using Object-Ori
 - Add input validation for edge cases
 - Build a GUI version using Tkinter
 
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 2. Denomination Counter 💵 <br>
 A simple GUI-based Denomination Calculator built in Python using Tkinter. Given an amount, it breaks it down into the minimum number of ₹2000, ₹500, ₹100, and ₹10 notes, plus ₹1 coins needed to make up that amount. 
@@ -38,16 +39,15 @@ A simple GUI-based Denomination Calculator built in Python using Tkinter. Given 
       ₹10 notes
       ₹1 coins
 
-🔧 Known Issues / Possible Future Improvements
-- Clicking "CALCULATE" more than once adds the new result to the old one instead of replacing it. The result boxes should be cleared before showing a new result.
-- If the user enters text or leaves the amount box empty, the program crashes. Input checking should be added.
-- PIL (Image, ImageTk) is imported but not used. It can be removed if no image is needed.
-- There is an extra mainloop() in the code that is not needed. Only one mainloop() is required.
-- A better message can be shown if the user enters 0 or a negative amount.
+🔧 Possible Future Improvements
+- Add support for smaller denominations (₹50, ₹20, ₹5, ₹2) for a more complete breakdown
+- Add a "Reset" button to clear all fields without closing the window
+- Improve the UI layout (currently a basic vertical stack of widgets)
 
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 3. Rock Paper Scissor Game✊✋✌️ <br>
 A simple GUI-based Rock Paper Scissors game built in Python using Tkinter. Type your move, click the button, and play a single round against the computer. 
